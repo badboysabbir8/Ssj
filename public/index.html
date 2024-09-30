@@ -79,11 +79,27 @@
     footer {
       background-color: #3b5998;
       color: white;
-      padding: 10px;
+      padding: 2px;
       text-align: center;
       position: fixed;
       bottom: 0;
       width: 100%;
+    }
+
+    .example-button {
+      background-color: #3b5998;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 10px 0;
+      display: inline-block;
+    }
+
+    .example-link {
+      display: none; /* Initially hidden */
+      color: #3b5998;
     }
   </style>
 </head>
@@ -100,113 +116,108 @@
   <main>
     <div class="endpoint-container">
       <h2>GEOMETRY DASH RANDOM VIDEO API</h2>
-      <p>This Api link route is related geometry dash random video gameplays from TikTok video. Fire in the hole...</p>
-      <p>Example usage: <a href="/api/gd" target="_blank">/api/gd</a></p>
+      <p>This Api link route is related to Geometry Dash random video gameplays from TikTok video. Fire in the hole...</p>
+      <button class="example-button" onclick="toggleExample('gdExample')">Example Usage</button>
+      <p class="example-link" id="gdExample">Example usage: <a href="/api/gd" target="_blank">/api/gd</a></p>
     </div>
+
     <div class="endpoint-container">
       <h2>RANDOM EDIT VIDEO API</h2>
-      <p>This Api Link route is a random video of edit like preset alightmotion and content related edits</p>
-      <p>Example usage: <a href="/api/edit" target="_blank">/api/edit</a></p>
+      <p>This Api Link route is a random video of edit like preset alight motion and content related edits.</p>
+      <button class="example-button" onclick="toggleExample('editExample')">Example Usage</button>
+      <p class="example-link" id="editExample">Example usage: <a href="/api/edit" target="_blank">/api/edit</a></p>
     </div>
 
     <div class="endpoint-container">
       <h2>TIKTOK SEARCH API</h2>
-      <p>This Api Route Link Is a to search the TikTok Videos Based on hashtags or title of contents</p>
-      <p>Example usage: <a href="/api/tiktok/searchvideo?keywords=" target="_blank">/api/tiktok/searchvideo?keywords=</a></p>
+      <p>This Api Route Link is to search TikTok Videos based on hashtags or title of contents.</p>
+      <button class="example-button" onclick="toggleExample('tiktokSearchExample')">Example Usage</button>
+      <p class="example-link" id="tiktokSearchExample">Example usage: <a href="/api/tiktok/searchvideo?keywords=" target="_blank">/api/tiktok/searchvideo?keywords=</a></p>
     </div>
 
-        <div class="endpoint-container">
+    <div class="endpoint-container">
       <h2>TINYURL API</h2>
-      <p>This routes api link is a popular shortner link call tinyurl to short yours link and efficient</p>
-      <p>Example usage: <a href="/api/tinyurl?url=" target="_blank">/api/tinyurl?url=</a></p>
-        </div>
+      <p>This routes api link is a popular shortener link call tinyurl to shorten your link efficiently.</p>
+      <button class="example-button" onclick="toggleExample('tinyurlExample')">Example Usage</button>
+      <p class="example-link" id="tinyurlExample">Example usage: <a href="/api/tinyurl?url=" target="_blank">/api/tinyurl?url=</a></p>
+    </div>
 
     <div class="endpoint-container">
       <h2>AI API</h2>
-      <p>This routes api link is a simple ai or gpt4</p>
-      <p>Example usage: <a href="/api/ai?query=hi" target="_blank">/api/ai?query=hi</a></p>
+      <p>This routes api link is a simple AI or GPT-4.</p>
+      <button class="example-button" onclick="toggleExample('aiExample')">Example Usage</button>
+      <p class="example-link" id="aiExample">Example usage: <a href="/api/ai?query=hi" target="_blank">/api/ai?query=hi</a></p>
     </div>
 
     <div class="endpoint-container">
       <h2>GOOGLE BARD AI API</h2>
-      <p>This route api is bard like chatgpt but but they just have different knowledge of bard (images not supported just text based)</p>
-      <p>Example usage: <a href="/api/bard?query=hi" target="_blank">/api/bard/query=hi</a></p>
+      <p>This route API is Bard like ChatGPT but they just have different knowledge of Bard (images not supported, just text-based).</p>
+      <button class="example-button" onclick="toggleExample('bardExample')">Example Usage</button>
+      <p class="example-link" id="bardExample">Example usage: <a href="/api/bard?query=hi" target="_blank">/api/bard/query=hi</a></p>
     </div>
 
     <div class="endpoint-container">
       <h2>TIKTOK STALK API</h2>
-      <p>This route api to ability to stalk the profile of TikTok Users</p>
-      <p>Example usage: <a href="/api/tikstalk?unique_id=" target="_blank">/api/tikstalk?unique_id=</a></p>
+      <p>This route API to ability to stalk the profile of TikTok Users.</p>
+      <button class="example-button" onclick="toggleExample('tikStalkExample')">Example Usage</button>
+      <p class="example-link" id="tikStalkExample">Example usage: <a href="/api/tikstalk?unique_id=" target="_blank">/api/tikstalk?unique_id=</a></p>
     </div>
 
-        <div class="endpoint-container">
+    <div class="endpoint-container">
       <h2>INSTAGRAM STALK API</h2>
-      <p>This route api to ability to stalk the profile of Instagram Users using username</p>
-      <p>Example usage: <a href="/api/instagram/stalk?ig=" target="_blank">/api/instagram/stalk?ig=</a></p>
-        </div>
+      <p>This route API to ability to stalk the profile of Instagram Users using username.</p>
+      <button class="example-button" onclick="toggleExample('instaStalkExample')">Example Usage</button>
+      <p class="example-link" id="instaStalkExample">Example usage: <a href="/api/instagram/stalk?ig=" target="_blank">/api/instagram/stalk?ig=</a></p>
+    </div>
 
-            <div class="endpoint-container">
+    <div class="endpoint-container">
       <h2>FACEBOOK VIDEO DOWNLOADER API</h2>
-      <p>This route API is to ability to download video from Facebook or Facebook Reels</p>
-      <p>Example usage: <a href="/api/fbdl?url=" target="_blank">/api/fbdl?url=your url video facebook</a></p>
-            </div>
+      <p>This route API is to ability to download video from Facebook or Facebook Reels.</p>
+      <button class="example-button" onclick="toggleExample('fbDownloaderExample')">Example Usage</button>
+      <p class="example-link" id="fbDownloaderExample">Example usage: <a href="/api/fbdl?url=" target="_blank">/api/fbdl?url=your url video facebook</a></p>
+    </div>
 
-            <div class="endpoint-container">
+    <div class="endpoint-container">
       <h2>TIKTOK DOWNLOADER API</h2>
-      <p>This route API to ability to download the video from TikTok video with link video</p>
-      <p>Example usage: <a href="/api/tikdl?url=" target="_blank">/api/tikdl?url= your video link video from TikTok</a></p>
-        </div>
-
-                <div class="endpoint-container">
-      <h2>YOUTUBE DOWNLOADER API</h2>
-      <p>This route API to ability to download the video from Youtube video with link video</p>
-      <p>Example usage: <a href="/api/yt?url=" target="_blank">/api/yt?url= your video link video from youtube</a></p>
-                </div>
-
-                <div class="endpoint-container">
-      <h2>TWITTER DOWNLOADER API</h2>
-      <p>This route API to ability to download the video from Twitter video with link video</p>
-      <p>Example usage: <a href="/api/tikdl?url=" target="_blank">/api/twitter?url= your video link video from from Twitter</a></p>
-                </div>
+      <p>This route API to ability to download the video from TikTok video with link video.</p>
+      <button class="example-button" onclick="toggleExample('tikDownloaderExample')">Example Usage</button>
+      <p class="example-link" id="tikDownloaderExample">Example usage: <a href="/api/tikdl?url=" target="_blank">/api/tikdl?url= your video link from TikTok</a></p>
+    </div>
 
     <div class="endpoint-container">
       <h2>YOUTUBE DOWNLOADER API</h2>
-      <p>This route API to ability to download the video from Youtube video with link video</p>
-      <p>Example usage: <a href="/api/yt?url=" target="_blank">/api/yt?url= your video link video from youtube</a></p>
-                </div>
-
-                <div class="endpoint-container">
-      <h2>PINTEREST API</h2>
-      <p>This route API to ability to Search the images from Pinterest</p>
-      <p>Example usage: <a href="/api//pin?title=wallpaper&count=10
-                          =" target="_blank">/api/pin?title=wallpaper&count=15
-</a></p>
-                </div>
-
-                         <!-- <div class="endpoint-container">
-      <h2>AI X PINTEREST API</h2>
-      <p>This route can send response with image from Pinterest and via FastAPI Using Python</p>
-      <p>Example usage: <a href="https://aiapiviafastapiwithimagebyjonellmagallanes.replit.app/ai?content=hello 
-                          =" target="_blank">/ai?content=your question
-</a></p> 
-                          </div> -->
-
-  <div class="endpoint-container">
-      <h2>GLOBAL GPT API</h2>
-      <p>This route based on the CHATGPT 3.5 Model AI</p>
-      <p>Example usage: <a href="/api/globalgpt?question=hello
-                          =" target="_blank">/api/gloabalgpt?question=your question
-</a></p>
-  </div>
+      <p>This route API to ability to download the video from YouTube video with link video.</p>
+      <button class="example-button" onclick="toggleExample('ytDownloaderExample')">Example Usage</button>
+     <p class="example-link" id="ytDownloaderExample">Example usage: <a href="/api/yt?url=" target="_blank">/api/yt?url= your video link from YouTube</a></p>
     </div>
 
-  <div class="endpoint-container">
+    <div class="endpoint-container">
+      <h2>TWITTER DOWNLOADER API</h2>
+      <p>This route API allows you to download videos from Twitter using a video link.</p>
+      <button class="example-button" onclick="toggleExample('twitterDownloaderExample')">Example Usage</button>
+      <p class="example-link" id="twitterDownloaderExample">Example usage: <a href="/api/twitter?url=" target="_blank">/api/twitter?url= your video link from Twitter</a></p>
+    </div>
+
+    <div class="endpoint-container">
+      <h2>PINTEREST API</h2>
+      <p>This route API allows you to search images from Pinterest.</p>
+      <button class="example-button" onclick="toggleExample('pinterestExample')">Example Usage</button>
+      <p class="example-link" id="pinterestExample">Example usage: <a href="/api/pin?title=wallpaper&count=15" target="_blank">/api/pin?title=wallpaper&count=15</a></p>
+    </div>
+
+    <div class="endpoint-container">
+      <h2>GLOBAL GPT API</h2>
+      <p>This route is based on the ChatGPT 3.5 Model AI.</p>
+      <button class="example-button" onclick="toggleExample('globalGptExample')">Example Usage</button>
+      <p class="example-link" id="globalGptExample">Example usage: <a href="/api/globalgpt?question=hello" target="_blank">/api/globalgpt?question=your question</a></p>
+    </div>
+
+    <div class="endpoint-container">
       <h2>LLAMA AI API</h2>
-      <p>LLAMA AI BY META Can Ask Questions And this is Via FastAPI By Python</p>
-      <p>Example usage: <a href="https://llmaaiviafastapibyjonellmagallanes.replit.app/meta?prompt=hello
-                          =" target="_blank">/meta?prompt=your question
-</a></p>
-  </div>
+      <p>LLAMA AI by META can answer questions via FastAPI using Python.</p>
+      <button class="example-button" onclick="toggleExample('llamaExample')">Example Usage</button>
+      <p class="example-link" id="llamaExample">Example usage: <a href="https://llmaaiviafastapibyjonellmagallanes.replit.app/meta?prompt=hello" target="_blank">/meta?prompt=your question</a></p>
+    </div>
 
   </main>
 
@@ -222,6 +233,11 @@
 
     function navigate(path) {
       window.location.href = path;
+    }
+
+    function toggleExample(exampleId) {
+      const exampleLink = document.getElementById(exampleId);
+      exampleLink.style.display = exampleLink.style.display === 'block' ? 'none' : 'block';
     }
   </script>
 </body>
