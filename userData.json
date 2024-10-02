@@ -1,51 +1,177 @@
 [
   {
-    "path": "/login",
-    "duration": 17,
-    "status": 200,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:08.880Z"
-  },
-  {
-    "path": "/api/login",
-    "duration": 5,
-    "status": 401,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:13.562Z"
-  },
-  {
-    "path": "/api/login",
+    "path": "/favicon.ico",
     "duration": 2,
-    "status": 401,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:22.216Z"
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:20:15.485Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 0,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:20:50.220Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:20:51.358Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:20:57.593Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:21:16.272Z"
+  },
+  {
+    "path": "/globalgpt",
+    "duration": 446,
+    "status": 500,
+    "ip": "::1",
+    "date": "2024-10-02T13:21:16.710Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:21:43.082Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 0,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:22:08.282Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 0,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:22:29.222Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 2,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:25:37.652Z"
+  },
+  {
+    "path": "/favicon.ico",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:26:19.816Z"
+  },
+  {
+    "path": "/gd",
+    "duration": 5021,
+    "status": 500,
+    "ip": "::1",
+    "date": "2024-10-02T13:26:26.949Z"
+  },
+  {
+    "path": "/edit",
+    "duration": 5005,
+    "status": 500,
+    "ip": "::1",
+    "date": "2024-10-02T13:26:36.337Z"
+  },
+  {
+    "path": "/login",
+    "duration": 2,
+    "status": 200,
+    "ip": "::1",
+    "date": "2024-10-02T13:26:48.203Z"
   },
   {
     "path": "/api/login",
     "duration": 1,
     "status": 401,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:23.802Z"
+    "ip": "::1",
+    "date": "2024-10-02T13:27:05.994Z"
   },
   {
-    "path": "/api/login",
-    "duration": 2,
+    "path": "/commands",
+    "duration": 1,
     "status": 200,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:40.062Z"
+    "ip": "::1",
+    "date": "2024-10-02T13:27:16.127Z"
   },
   {
-    "path": "/api/userData",
-    "duration": 2,
-    "status": 200,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:42.635Z"
+    "path": "/favicon.ico",
+    "duration": 5,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T13:57:18.649Z"
   },
   {
-    "path": "/api/userData",
+    "path": "/fbdl",
+    "duration": 15,
+    "status": 400,
+    "ip": "::1",
+    "date": "2024-10-02T15:21:48.588Z"
+  },
+  {
+    "path": "/globalgpt",
+    "duration": 815,
+    "status": 500,
+    "ip": "::1",
+    "date": "2024-10-02T15:21:52.554Z"
+  },
+  {
+    "path": "/commands",
     "duration": 2,
     "status": 200,
-    "ip": "::ffff:172.31.196.44",
-    "date": "2024-02-13T05:40:52.980Z"
+    "ip": "::1",
+    "date": "2024-10-02T15:22:15.491Z"
+  },
+  {
+    "path": "/tiktok/searchvideo",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T15:22:18.996Z"
+  },
+  {
+    "path": "/gd",
+    "duration": 0,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T15:22:24.464Z"
+  },
+  {
+    "path": "/login",
+    "duration": 1,
+    "status": 200,
+    "ip": "::1",
+    "date": "2024-10-02T15:22:42.533Z"
+  },
+  {
+    "path": "/commands",
+    "duration": 0,
+    "status": 304,
+    "ip": "::1",
+    "date": "2024-10-02T15:22:46.742Z"
+  },
+  {
+    "path": "/edit",
+    "duration": 1,
+    "status": 404,
+    "ip": "::1",
+    "date": "2024-10-02T15:22:54.321Z"
   }
 ]
