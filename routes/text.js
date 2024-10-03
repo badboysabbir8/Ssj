@@ -5,7 +5,7 @@ const { ephoto } = require('nayan-server');
 const config = require('./config.json'); // Import the config file
 
 // API endpoint
-router.get('/api/ephoto', async (req, res) => {
+router.get('/ephoto', async (req, res) => {
     const { text, num } = req.query; // Get query parameters from the URL
 
     // Get the URLs from the config file
