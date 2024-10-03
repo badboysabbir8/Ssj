@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const router = express.Router();
 const { ephoto } = require('nayan-server');
-const config = require('./config.json'); // Import the config file
+const config = require('./../config.json'); // Import the config file
 
 // API endpoint
 router.get('/ephoto', async (req, res) => {
