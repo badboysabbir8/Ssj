@@ -13,7 +13,6 @@ router.get("/xnil/fbcover/v1", async (req, res) => {
     image = await jimp.read(image);
     image.circle();
     return await image.getBufferAsync("image/png");
-    const __root = path.resolve(__dirname, "cache");
     
   const pathImg = path.join(__dirname, 'cache', 'fbcover1.png');
     const pathAva = path.join(__dirname, 'cache', 'fbcover2.png');
